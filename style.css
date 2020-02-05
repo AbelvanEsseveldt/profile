@@ -1,0 +1,123 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+body {
+  color: rgb(40, 40, 40);
+  font-family: 'Open Sans', sans-serif;
+  background-color: ##F7F9FC;
+}
+
+h1 {
+  color: #1A1D1A;
+  font-size: 36px;
+  justify-content: center;
+  text-align: center;
+}
+
+.banner a {
+  background-color: #568EA3;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 8px;
+  transition-duration: 0.4s
+}
+
+.banner a:hover {
+  color: white;
+  background-color: #568EA3;
+  opacity: 80%;
+}
+
+
+.banner {
+  text-align: center;
+  margin: 0, auto;
+}
+.banner img {
+  object-fit: cover;
+  border: 1px solid #888888;
+  border-radius: 50%;
+  transform: rotate(90deg);
+  width: 165px;
+  height: 165px;
+  box-shadow: 5px 10px 8px #888888;
+}
+
+.follow {
+  justify-content: center;
+  display: flex;
+  list-style: none;
+}
+
+.link {
+  margin: 0 auto;
+  width: 200px;
+  text-align: center;
+}
+
+ul {
+  padding: 0;
+  font-size: 15px;
+  font-color: #93B48B;
+}
+
+.follow a {
+  color: #8491A3;
+  font-size: 25px;
+  padding: 0 10px;
+}
+
+.follow a:hover {
+  opacity: 80%;
+}
+
+
+.follow {
+  padding: 0px;
+  margin: auto;
+}
+
+#text {
+  margin: 57px
+}
+
+.card {
+  width: 664px;
+  margin: 0 auto;
+  margin-bottom:25px;
+  background: #FCFCFC;
+  padding: 30px;
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+}
+
+.container {
+  max-width: 960px;
+  width: 100%;
+  text-align: center;
+  margin: 0 auto;
+
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
